@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/list/comments" element={<ListComment />} />
-          <Route path="/edit/comments" element={<EditComment />} />
+          <Route path="/edit/comments/:id" element={<EditComment />} />
         </Routes>
       </BrowserRouter>
     </body>
